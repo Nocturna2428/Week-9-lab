@@ -1,0 +1,38 @@
+module internet_system_top(
+    input [15:0] sw,       // switches
+    input btnL, btnU,      // mux select bits
+    input btnD, btnR,      // demux select bits
+    input btnC,            // Enable
+    output [15:0] led      // LEDs
+);
+
+    // Concatenate button pairs into select vectors
+    wire [1:0] mux_sel   = {btnU, btnL};
+    wire [1:0] demux_sel = {btnR, btnD};
+
+    // Intermediate connection between MUX and DEMUX
+    wire [3:0] mux_out;
+
+    // Instantiate the 4x1 MUX
+    mux_4x1_4bit U_MUX (
+        .CEO(sw[3:0]),
+        .YOU(sw[7:4]),
+        .FRED(sw[11:8]),
+        .JILL(sw[15:12]),
+        .Sel(mux_sel),
+        .Enable(btnC),
+        .Y(mux_out)
+    );
+
+    // Instantiate the 1x4 DEMUX
+    demux_1x4_4bit U_DEMUX (
+        .In(mux_out),
+        .Sel(demux_sel),
+        .Enable(btnC),
+        .local_lib(led[3:0]),
+        .fire_dept(led[7:4]),
+        .school(led[11:8]),
+        .rib_shack(led[15:12])
+    );
+
+endmodule
