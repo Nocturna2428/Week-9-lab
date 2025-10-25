@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/ECE230_32/Downloads/Week-9-lab-main/test.v,1761248263,verilog,,,,test,,,,,,,,
+C:/Users/ECE230_32/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/ECE230_32/project_1/project_1.srcs/sources_1/new/demux_1x4_4bit.v,1761248847,verilog,,C:/Users/ECE230_32/project_1/project_1.srcs/sources_1/new/mux_4x1_4bit.v,,demux_1x4_4bit,,,,,,,,
+C:/Users/ECE230_32/project_1/project_1.srcs/sources_1/new/mux_4x1_4bit.v,1761248796,verilog,,C:/Users/ECE230_32/project_1/project_1.srcs/sources_1/new/top.v,,mux_4x1_4bit,,,,,,,,
+C:/Users/ECE230_32/project_1/project_1.srcs/sources_1/new/top.v,1761249574,verilog,,C:/Users/ECE230_32/Downloads/Week-9-lab-main/test.v,,top,,,,,,,,
