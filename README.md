@@ -14,8 +14,8 @@ In this lab you have learned about multiplexers and demultiplexers.
 ## Lab Questions
 
 ### In plain English describe the function and use of a multiplexer.
-
+A multiplexer is like a train track switch — many incoming tracks, but only one track leads to the destination. The control signal chooses which input gets through.
 ### In plain English describe the function and use of a demultiplexer.
-
+A demultiplexer is like a mail sorter — one stream of mail arrives, but the control system sends each piece to the correct mailbox/output.
 ### What other uses might these circuits have? (Think Shannon’s)
 
