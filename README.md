@@ -19,3 +19,10 @@ A multiplexer is like a train track switch — many incoming tracks, but only on
 A demultiplexer is like a mail sorter — one stream of mail arrives, but the control system sends each piece to the correct mailbox/output.
 ### What other uses might these circuits have? (Think Shannon’s)
 
+- Using Shannon’s expansion, MUXes can build ANY combinational logic circuit.
+- The use can be for setting lights or randomizing.
+- Communication systems
+- CPU design / Computer architecture
+- Memory and storage routing
+- Signal encoding/decoding
+
