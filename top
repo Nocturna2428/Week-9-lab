@@ -1,4 +1,4 @@
-module internet_system_top(
+top(
     input [15:0] sw,       // switches
     input btnL, btnU,      // mux select bits
     input btnD, btnR,      // demux select bits
